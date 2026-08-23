@@ -135,6 +135,22 @@ Answer:
 
 Answer:
 
+**D7a. Conclaves, summits, trade fairs or industry panels — which ones, in what year, and what was your role?**
+
+> Role is everything here. Attending is worth nothing and adcoms discount it immediately. Speaking, moderating, organising, exhibiting or representing your company is worth a line.
+> Strong answer: "Represented Lifomed at the UP Chemists Association annual conclave 2026; ran the stall and opened conversations with 14 distributors, converting 3."
+> Weak answer: "Attended various business conclaves and networking events."
+
+Answer:
+
+**D7b. Which software can you actually use, and at what level? Be honest — anything listed here is fair game in an interview.**
+
+> For your profile the credible stack is Excel (state the level: pivot tables, lookups, financial modelling), Power BI or Tableau, an ERP or accounting system such as Tally, Zoho or SAP, a CRM, and Google Analytics. Add SQL only if you can write a join unprompted.
+> Strong answer: "Excel — advanced, build the monthly distributor performance model; Tally ERP — daily use for orders and receivables; Power BI — basic, built one dashboard."
+> Weak answer: "MS Office, SQL, Python."
+
+Answer:
+
 **D8. Any third language at any level, including school study? Could you certify to A2 before you apply?**
 
 > INSEAD requires practical knowledge of a third language before graduation. Sanskrit at school does not satisfy this — it needs to be a spoken working language.

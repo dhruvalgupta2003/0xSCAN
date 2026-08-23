@@ -8,15 +8,15 @@
       new URLSearchParams(window.location.search).get("theme") || "classic";
   </script>
   <style>
-    @page { size: A4; margin: 13mm 15mm 12mm; }
+    @page { size: A4; margin: 12mm 14mm 11mm; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       color: var(--text);
       background: #fff;
       font-family: var(--sans);
-      font-size: 9.55pt;
-      line-height: 1.34;
+      font-size: 9.4pt;
+      line-height: 1.32;
     }
     :root {
       --text: #20242a;
@@ -41,46 +41,36 @@
       --display: Georgia, "Times New Roman", serif;
     }
     header {
-      padding: 0 0 9px;
+      padding: 0 0 8px;
       border-bottom: 2px solid var(--accent);
     }
     h1 {
       margin: 0;
       color: var(--accent);
       font-family: var(--display);
-      font-size: 24pt;
+      font-size: 23pt;
       line-height: 1.05;
       letter-spacing: .25px;
     }
-    .modern h1 {
-      letter-spacing: 1.2px;
-    }
+    .modern h1 { letter-spacing: 1.2px; }
     .executive header {
-      padding: 8px 10px 9px;
+      padding: 7px 10px 8px;
       border-top: 5px solid var(--accent);
       border-bottom-width: 1px;
       background: #f3f7f5;
     }
-    .subtitle {
-      margin-top: 3px;
-      color: var(--muted);
-      font-size: 9.3pt;
-      font-weight: 700;
-      letter-spacing: .65px;
-      text-transform: uppercase;
-    }
     .contact {
       margin-top: 5px;
       color: var(--muted);
-      font-size: 9.1pt;
+      font-size: 9pt;
     }
-    section { margin-top: 12px; }
+    section { margin-top: 10px; }
     h2 {
-      margin: 0 0 6px;
-      padding-bottom: 3px;
+      margin: 0 0 5px;
+      padding-bottom: 2px;
       color: var(--accent);
       border-bottom: 1px solid var(--rule);
-      font-size: 9.8pt;
+      font-size: 9.6pt;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
@@ -104,78 +94,58 @@
       align-items: baseline;
       gap: 14px;
     }
+    .job + .job { margin-top: 8px; }
     .organization {
       color: #17202b;
-      font-size: 10.5pt;
+      font-size: 10.3pt;
       font-weight: 700;
     }
     .date {
       color: var(--muted);
-      font-size: 9.1pt;
+      font-size: 9pt;
       font-weight: 700;
       white-space: nowrap;
     }
     .role {
       margin-top: 1px;
       color: var(--muted);
-      font-style: italic;
       font-weight: 700;
     }
+    .descriptor {
+      color: var(--muted);
+      font-size: 8.7pt;
+      font-style: italic;
+    }
     ul {
-      margin: 6px 0 0 17px;
+      margin: 5px 0 0 16px;
       padding: 0;
     }
     li {
-      margin: 0 0 3.8px;
+      margin: 0 0 3.4px;
       padding-left: 2px;
     }
-    .degree {
-      margin-top: 2px;
-      color: var(--muted);
-      font-weight: 700;
-    }
-    .line { margin: 0 0 4px; }
-    .profile {
-      margin: 0;
-      color: var(--text);
-      line-height: 1.4;
-    }
+    .line { margin: 0 0 3.5px; }
     .label {
       display: inline-block;
-      width: 88px;
+      width: 104px;
       color: var(--accent);
       font-weight: 700;
+      vertical-align: top;
     }
+    .label + span {
+      display: inline-block;
+      width: calc(100% - 110px);
+    }
+    .fill { color: #8a6d1f; }
+    .executive .fill { color: #8a5a1f; }
     strong { color: #111827; }
   </style>
 </head>
 <body>
   <header>
     <h1>ANSH SHUKLA</h1>
-    <div class="subtitle">MBA Applicant · International Business</div>
-    <div class="contact">+91 99680 22915 &nbsp;|&nbsp; mailmetoansh@gmail.com</div>
+    <div class="contact"><span class="fill">[City]</span>, India &nbsp;|&nbsp; +91 99680 22915 &nbsp;|&nbsp; mailmetoansh@gmail.com &nbsp;|&nbsp; <span class="fill">linkedin.com/in/[username]</span></div>
   </header>
-
-  <section>
-    <h2>Professional Profile</h2>
-    <p class="profile">Early-career strategy and business operations professional with experience supporting co-founders and coordinating cross-functional priorities in a high-growth organisation. Contributed to quick-commerce expansion across three regional markets and collaborated with MIT interns on innovation, scalability and digital-transformation initiatives. Offers exposure to performance tracking, unit economics, executive stakeholder management and multicultural teamwork, with a career focus on international business and market expansion.</p>
-  </section>
-
-  <section>
-    <h2>Professional Experience</h2>
-    <div class="entry">
-      <div class="organization">Tata 1mg</div>
-      <div class="date">2023–2025</div>
-    </div>
-    <div class="role">Executive Assistant, Founders’ Office</div>
-    <ul>
-      <li>Enabled execution of co-founder priorities by coordinating executive communications, decision meetings, performance reviews and follow-through with cross-functional stakeholders.</li>
-      <li>Coordinated strategic workstreams within the quick-commerce vertical, supporting business performance tracking, revenue optimisation and unit-economics initiatives.</li>
-      <li>Supported retail launch and expansion across Jaipur, Gurugram and Noida, contributing to newly launched operations reaching <strong>₹1.3 million in monthly revenue within two months</strong>.</li>
-      <li>Aligned stakeholders across business functions, maintained visibility into key priorities and facilitated execution in a fast-growth operating environment.</li>
-      <li>Collaborated with MIT interns through the Tata Globe Internship Programme on innovation, operational scalability and digital-transformation initiatives.</li>
-    </ul>
-  </section>
 
   <section>
     <h2>Education</h2>
@@ -183,28 +153,64 @@
       <div class="organization">Guru Gobind Singh Indraprastha University</div>
       <div class="date">2020–2023</div>
     </div>
-    <div class="degree">Bachelor of Business Administration</div>
-  </section>
-
-  <section>
-    <h2>International &amp; Strategic Exposure</h2>
+    <div class="role">Bachelor of Business Administration &nbsp;·&nbsp; Delhi, India</div>
     <ul>
-      <li>Built international project exposure through collaboration with MIT interns on business innovation and scalable operating models.</li>
-      <li>Developed practical exposure to regional market expansion, digital commerce, executive decision-making and growth-stage operations.</li>
+      <li class="fill">[Add CGPA or percentage]</li>
+      <li class="fill">[Add academic honours or awards]</li>
+      <li>Tests: <span class="fill">[add GMAT or GRE score and date]</span> &nbsp;·&nbsp; <span class="fill">[add IELTS or TOEFL score and date]</span></li>
     </ul>
   </section>
 
   <section>
-    <h2>Business &amp; International Management Skills</h2>
-    <p class="line">Business strategy · Market expansion · Business analytics · KPI and performance tracking</p>
-    <p class="line">Unit economics · Revenue optimisation · Cross-functional project coordination · Stakeholder management</p>
-    <p class="line">Digital transformation · Retail operations · Executive communication · Multicultural collaboration</p>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="entry">
+        <div class="organization">Lifomed Healthcare Private Limited</div>
+        <div class="date"><span class="fill">[Month]</span> 2025–Present</div>
+      </div>
+      <div class="role">Assistant Director &nbsp;·&nbsp; Uttar Pradesh, India</div>
+      <div class="descriptor">OTC pharmaceutical marketing and distribution business operating across North India</div>
+      <ul>
+        <li>Run commercial strategy and daily operations alongside senior management, with responsibility for market expansion, product positioning and portfolio development.</li>
+        <li>Quadrupled annual turnover from <strong>INR 5M to INR 20M</strong> by widening territory coverage and extending the product range.</li>
+        <li>Develop and maintain a distribution network of doctors, chemists and distributors that broadens reach across the region.</li>
+        <li>Negotiate sourcing, packaging, labelling, pricing and supply terms with contract manufacturers to keep the full portfolio available across the network.</li>
+        <li>Conduct field visits and customer discovery to test demand, capture trade feedback and prioritise the next products and territories to launch.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="entry">
+        <div class="organization">Tata 1mg</div>
+        <div class="date"><span class="fill">[Month]</span> 2023–<span class="fill">[Month]</span> 2025</div>
+      </div>
+      <div class="role">Executive Assistant, Founders’ Office &nbsp;·&nbsp; India</div>
+      <div class="descriptor">Digital healthcare and e-pharmacy platform, Tata Group</div>
+      <ul>
+        <li>Acted as execution partner to the co-founders across executive communications, decision meetings, performance reviews and cross-functional follow-through.</li>
+        <li>Tracked performance and unit economics across quick-commerce strategy workstreams targeting revenue optimisation.</li>
+        <li>Supported retail expansion into Jaipur, Gurugram and Noida; the new sites reached <strong>INR 1.3M in monthly revenue within two months</strong> of launch.</li>
+        <li>Partnered with MIT interns under the Tata Globe Internship Programme on innovation, operational scalability and digital-transformation projects.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Leadership &amp; Activities</h2>
+    <ul>
+      <li class="fill">[Add a position of responsibility — organisation, title, dates, and what you delivered or how many people you led]</li>
+      <li class="fill">[Add volunteering, a community initiative, a competition or an award]</li>
+    </ul>
   </section>
 
   <section>
     <h2>Additional Information</h2>
-    <p class="line"><span class="label">Language</span>English — Fluent</p>
-    <p class="line"><span class="label">Career focus</span>International business, global strategy, market expansion and digital commerce</p>
+    <p class="line"><span class="label">Post-MBA focus</span><span>International business, global market entry, distribution strategy and general management</span></p>
+    <p class="line"><span class="label">Languages</span><span>English — Fluent; Hindi — Native; <span class="fill">[add a third language and level]</span></span></p>
+    <p class="line"><span class="label">International</span><span>Projects with MIT interns via the Tata Globe Internship Programme; <span class="fill">[add cross-border exposure]</span></span></p>
+    <p class="line"><span class="label">Skills</span><span>Market expansion, go-to-market strategy, channel and distributor management, vendor negotiation, pricing strategy, unit economics, KPI and performance tracking, supply chain coordination, digital commerce, stakeholder management</span></p>
+    <p class="line"><span class="label">Interests</span><span class="fill">[add two interests]</span></p>
   </section>
 </body>
 </html>

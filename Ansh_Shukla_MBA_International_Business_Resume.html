@@ -114,37 +114,14 @@
       font-weight: 700;
     }
 
-    .competencies {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4px 24px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    .detail-line {
+      margin: 0 0 4px;
     }
 
-    .competencies li {
-      position: relative;
-      margin: 0;
-      padding-left: 12px;
-    }
-
-    .competencies li::before {
-      position: absolute;
-      left: 0;
+    .detail-line strong {
+      display: inline-block;
+      width: 92px;
       color: #143d66;
-      content: "▪";
-    }
-
-    .additional {
-      display: grid;
-      grid-template-columns: 92px 1fr;
-      gap: 4px 10px;
-    }
-
-    .label {
-      color: #143d66;
-      font-weight: 700;
     }
 
     strong {
@@ -196,24 +173,14 @@
 
     <section>
       <h2>Core Competencies</h2>
-      <ul class="competencies">
-        <li>Strategic planning support</li>
-        <li>Cross-functional coordination</li>
-        <li>Business performance tracking</li>
-        <li>Retail expansion support</li>
-        <li>Executive stakeholder management</li>
-        <li>Structured problem-solving</li>
-      </ul>
+      <p class="detail-line">Strategic planning support · Cross-functional coordination · Business performance tracking</p>
+      <p class="detail-line">Retail expansion support · Executive stakeholder management · Structured problem-solving</p>
     </section>
 
     <section>
       <h2>Additional Information</h2>
-      <div class="additional">
-        <div class="label">Language</div>
-        <div>English — Fluent</div>
-        <div class="label">Focus areas</div>
-        <div>International business, market expansion, strategy and digital commerce</div>
-      </div>
+      <p class="detail-line"><strong>Language</strong>English — Fluent</p>
+      <p class="detail-line"><strong>Focus areas</strong>International business, market expansion, strategy and digital commerce</p>
     </section>
   </main>
 </body>

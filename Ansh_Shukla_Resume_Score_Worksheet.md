@@ -143,11 +143,9 @@ Answer:
 
 Answer:
 
-**D7b. Which software can you actually use, and at what level? Be honest — anything listed here is fair game in an interview.**
+**D7b. Software: deliberately left off the resume for now, at your instruction.**
 
-> For your profile the credible stack is Excel (state the level: pivot tables, lookups, financial modelling), Power BI or Tableau, an ERP or accounting system such as Tally, Zoho or SAP, a CRM, and Google Analytics. Add SQL only if you can write a join unprompted.
-> Strong answer: "Excel — advanced, build the monthly distributor performance model; Tally ERP — daily use for orders and receivables; Power BI — basic, built one dashboard."
-> Weak answer: "MS Office, SQL, Python."
+> If you later want a Technical line, it needs to be tools you can genuinely use — Excel with a stated level, Tally or whichever ERP Lifomed runs on, Power BI. Nothing listed unless you could be asked about it in an interview and answer comfortably.
 
 Answer:
 
